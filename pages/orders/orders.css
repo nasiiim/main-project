@@ -19,7 +19,7 @@ main {
 }
 
 .order-form input {
-    display: block;
+    /* display: block; */
     margin-top: 1rem;
     width: 100%;
     font: inherit;
@@ -43,7 +43,7 @@ main {
 
 .order-form input[type='checkbox'],
 .order-form input[type='checkbox'] + label {
-    display: inline-block;
+    /* display: inline-block; */
     width: auto;
 }
 
@@ -65,7 +65,7 @@ main {
 
 
 .order-form button {
-    display: block;
+    /* display: block; */
     margin-top: 1rem;
     border: none;
     border-radius: 3px;
@@ -78,6 +78,8 @@ main {
     .order-form {
         margin:auto;
         width: 30%;
+        display: flex;
+        flex-direction: column;
     }
 
     
